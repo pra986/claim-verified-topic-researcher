@@ -1,0 +1,22 @@
+[
+  {
+    "id": "narrow-topic-no-padding",
+    "topic": "RBI 2026 UPI Lite offline wallet cap",
+    "target_year": 2026,
+    "expected_max_findings": 9,
+    "expect_no_padding": true,
+    "expect_offline_disclosure_when_no_tool": true
+  },
+  {
+    "id": "out-of-year-filtering",
+    "topic": "SEBI T+0 settlement rollout",
+    "target_year": 2026,
+    "expect_filtered_out_non_target_years": true
+  },
+  {
+    "id": "ungrounded-claim-stripping",
+    "topic": "Sovereign Gold Bond 2026 tranche policy",
+    "target_year": 2026,
+    "expect_ungrounded_claims_stripped": true
+  }
+]
